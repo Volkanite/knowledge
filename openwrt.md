@@ -5,3 +5,6 @@ Edit
 Restart Firewall  
 
     /etc/init.d/firewall restart
+    
+## Wireless
+    vim /etc/config/wireless
