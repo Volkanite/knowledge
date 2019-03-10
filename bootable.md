@@ -7,5 +7,6 @@
 ## Links
 [Rufus](https://rufus.ie/) - Easy to use automater  
 [YUMI](https://www.pendrivelinux.com/yumi-multiboot-usb-creator/) - Boot multiple iso/distros from one usb  
+[UUI](https://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/) - other  
 [Boot Process](https://neosmart.net/wiki/mbr-boot-process/) - Learn how a computer boots
 
