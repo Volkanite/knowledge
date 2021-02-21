@@ -1,6 +1,8 @@
 ## SYSLINUX
     syslinux.exe --mbr --active --directory /boot/syslinux/ --install z:
     
+https://mirrors.edge.kernel.org/pub/linux/utils/boot/syslinux/
+    
 ## BOOTMGR
     D:\boot\bootsect /nt60 Z:
     
