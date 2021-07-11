@@ -53,7 +53,7 @@ Verify that your repository is up-to-date with the remote branch:
 
     git status
     
-If your repository remote URL starts with 'git@github' and NOT 'https', you sucessfully set up SSH
+If your repository's remote URL starts with 'git@github' and NOT 'https', you sucessfully set up SSH:
 
     git remote -v
 
