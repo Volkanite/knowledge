@@ -8,7 +8,7 @@ Step 3, Check if ssh-agent is running. If successful, it should output the proce
 
      eval "$(ssh-agent -s)"  
 
-Step 4, Add ssh key:
+Step 4, Add ssh key. Should prompt for password you entered earlier:
 
      ssh-add ~/.ssh/id_ed25519
 
