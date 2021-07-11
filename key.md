@@ -32,4 +32,4 @@ Step 7.1, testing the key:
 
 - Key should then be added to list of known hosts, after which it prompts for your passphrase for the last time:  
 
-![alt text](https://github.com/Volkanite/knowledge/blob/master/images/clone.png)
+![alt text](https://github.com/Volkanite/knowledge/blob/master/images/passphrase.png)
