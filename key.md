@@ -1,6 +1,6 @@
 Step 1, Create SSH key:
 
-    ssh-keygen -t ed25519 -C "volks.hb@gmail.com"
+    ssh-keygen -t ed25519 -C "your_email@something.com"
     
 Step 2, Enter passphrase for key
 
