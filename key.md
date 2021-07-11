@@ -25,14 +25,13 @@ Copy key to clipboard (the key will be available for paste, CTRL+V):
 Copy to GitHub [Settings](https://github.com/settings/keys) , click "New SSH key", enter a reasonable name in the Title field to help you identify the key, then paste your key in the Key field then click "Add SSH Key".
 
 ### Step 7
-Take note that the key says 'Never used' :  
+Testing the key. Take note that the key says 'Never used' :  
 ![alt text](https://github.com/Volkanite/knowledge/blob/master/images/key_before.png "Before use")  
 
-Testing the key:
 - Clone one of your repositories using the SSH method. Note that you have to select SSH, as choosing HTTPS will result in normal username and password authentication:  
 ![alt text](https://github.com/Volkanite/knowledge/blob/master/images/ssh_clone.png)  
 
-- First time using key should give a warning message. Type 'yes' to continue.  
+- First time using the key should give a warning message. Type 'yes' to continue.  
 
 ![alt text](https://github.com/Volkanite/knowledge/blob/master/images/clone.png)  
 
@@ -52,7 +51,7 @@ Verify that your repository is up-to-date with the remote branch:
 
     git status
     
-If your repository remote URL start with 'git@github' and NOT 'https', you sucessfully set up SSH
+If your repository remote URL starts with 'git@github' and NOT 'https', you sucessfully set up SSH
 
     git remote -v
 
