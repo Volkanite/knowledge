@@ -15,3 +15,5 @@ Step 4, Add ssh key:
 Step 5, Copy key to clipboard:
 
      clip < ~/.ssh/id_ed25519.pub
+
+Step 6, Copy to GitHub [Settings](https://github.com/settings/keys):
