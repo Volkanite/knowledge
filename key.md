@@ -4,7 +4,7 @@ Step 1, Create SSH key. The command below creates a key file named id_ed25519 is
     
 Step 2, Enter passphrase for key
 
-Step 3, Check if ssh-agent is running:
+Step 3, Check if ssh-agent is running. If successful, it should output the process ID:
 
      eval "$(ssh-agent -s)"  
 
