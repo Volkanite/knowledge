@@ -20,7 +20,6 @@ Step 6, Copy to GitHub [Settings](https://github.com/settings/keys) , click "New
 
 Step 7, verify if key works by comparing before and after usage:  
 ![alt text](https://github.com/Volkanite/knowledge/blob/master/images/key_before.png "Before use")  
-![alt text](https://github.com/Volkanite/knowledge/blob/master/images/key_after.png "After use")
 
 Step 7.1, testing the key:
 - Clone one of your repositories using the SSH method. Note that you have to select SSH, as choosing HTTPS will result in normal username and password authentication:  
@@ -32,4 +31,23 @@ Step 7.1, testing the key:
 
 - Key should then be added to list of known hosts, after which it prompts for your passphrase for the last time:  
 
-![alt text](https://github.com/Volkanite/knowledge/blob/master/images/passphrase.png)
+![alt text](https://github.com/Volkanite/knowledge/blob/master/images/passphrase.png)  
+
+- After, you can run a few more verifications:
+
+![alt text](https://github.com/Volkanite/knowledge/blob/master/images/verify.png)  
+
+Change to the repository's directory you just cloned. I used 'knowledge' because that is the name of mine; of course yours will be different:
+
+    cd knowledge
+    
+Verify that your repository is up-to-date with the remote branch:
+
+    git status
+    
+If your repository remote URL start with 'git@github' and NOT 'https', you sucessfully set up SSH
+
+    git remote -v
+
+Step 8, 'Last used...' = SUCCESS!  
+![alt text](https://github.com/Volkanite/knowledge/blob/master/images/key_after.png "After use")
