@@ -12,8 +12,8 @@ Step 4, Add ssh key to the list (maintained by ssh-agent). Should prompt for pas
 
      ssh-add ~/.ssh/id_ed25519
 
-Step 5, Copy key to clipboard:
+Step 5, Copy key to clipboard (the key will be available for paste, CTRL+V):
 
      clip < ~/.ssh/id_ed25519.pub
 
-Step 6, Copy to GitHub [Settings](https://github.com/settings/keys):
+Step 6, Copy to GitHub [Settings](https://github.com/settings/keys) . Enter a reasonable name in the title field to help you identify the key, then paste your key in the key field then click "Add SSH Key".
