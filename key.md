@@ -23,3 +23,5 @@ Step 7, verify if key works by comparing before and after usage:
 ![alt text](https://github.com/Volkanite/knowledge/blob/master/images/key_after.png "After use")
 
 Step 7.1, testing the key:
+- Clone one of your repositories using the SSH method. Note that you have to select SSH, as choosing HTTPS will result in normal username and password authentication:  
+![alt text](https://github.com/Volkanite/knowledge/blob/master/images/ssh_clone.png)
