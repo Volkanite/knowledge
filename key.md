@@ -28,4 +28,8 @@ Step 7.1, testing the key:
 
 - First time using key should give a warning message. Type 'yes' to continue.  
 
+![alt text](https://github.com/Volkanite/knowledge/blob/master/images/clone.png)  
+
+- Key should then be added to list of known hosts, after which it prompts for your passphrase for the last time:  
+
 ![alt text](https://github.com/Volkanite/knowledge/blob/master/images/clone.png)
