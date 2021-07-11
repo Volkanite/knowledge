@@ -1,4 +1,4 @@
-Step 1, Create SSH key. The command below creates a key file named id_ed25519 is your User's folder. You can see this file if you browser to C:\Users\YOUR_USERNAME\.ssh
+Step 1, Create SSH key. The command below creates a key file named id_ed25519 is your User's folder. You can see this file if your file browser (Windows Explorer) to C:\Users\YOUR_USERNAME\.ssh
 
     ssh-keygen -t ed25519 -C "your_email@something.com"
     
