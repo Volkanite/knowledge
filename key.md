@@ -19,7 +19,7 @@ Add ssh key to the list (maintained by ssh-agent). Should prompt for password yo
      ssh-add ~/.ssh/id_ed25519
 
 ### Step 5
-Copy key to clipboard (the key will be available for paste, CTRL+V):
+Copy the public key to the clipboard (the key will be available for paste, CTRL+V):
 
      clip < ~/.ssh/id_ed25519.pub
 
