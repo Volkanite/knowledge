@@ -33,7 +33,7 @@ Testing the key. Take note that the key says 'Never used' :
 - Clone one of your repositories using the SSH method. Note that you have to select SSH, as choosing HTTPS will result in normal username and password authentication:  
 ![alt text](https://github.com/Volkanite/knowledge/blob/master/images/ssh_clone.png)  
 
-- First time using the key should give a warning message. Type 'yes' to continue.  
+- First time using the key should give a warning message. Type 'yes' to continue. In the screenshot below I change to my D: drive because that is where I keep all my code. You can ignore that command. 
 
 ![alt text](https://github.com/Volkanite/knowledge/blob/master/images/clone.png)  
 
