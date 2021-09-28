@@ -38,4 +38,4 @@ join_example:
 
 
 ## Troubleshooting
-If the join command hangs while executing, it's most likely a network problem. Verify that your nodes are on the same network. An easy way to test this is to verify you can ping one machine from another. You'll also have to open the kubeadm port (6443) in your firewall.
+If the join command hangs while executing, it's most likely a network problem. Verify that your nodes are on the same network. An easy way to test this is to verify you can ping one machine from another. You'll also have to open the kubeadm port (6443) in your firewall. Also make sure your firewall allows for responding to pings (ICMP).
