@@ -13,7 +13,7 @@
 `vim /etc/docker/daemon.json`
 
     { 
-    "exec-opts": ["native.cgroupdriver=cgroupfs"]
+    "exec-opts": ["native.cgroupdriver=systemd"]
     }
 
 `systemctl daemon-reload`  
