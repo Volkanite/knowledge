@@ -28,7 +28,7 @@
 `chown $(id -u):$(id -g) $HOME/admin.conf`  
 `export KUBECONFIG=$HOME/admin.conf`  
 
-`kubectl get nodes`
+`kubectl get nodes`  
 `kubectl apply -f "https://cloud.weave.works/k8s/net?k8s-version=$(kubectl version | base64 | tr -d '\n')"`
 
 
