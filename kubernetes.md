@@ -1,4 +1,5 @@
 ## Environment
+Platform: Amazon Web Services  
 AMI: ubuntu/images/hvm-ssd/ubuntu-bionic-18.04-amd64-server-20210415  
 Instance type: t2.medium  
 Ports: 6443 (kubeadm), 6783 (CNI), 6784 (CNI)
@@ -34,6 +35,7 @@ Ports: 6443 (kubeadm), 6783 (CNI), 6784 (CNI)
 `export KUBECONFIG=$HOME/admin.conf`  
 
 `kubectl get nodes`  
+
 `export kubever=$(kubectl version | base64 | tr -d '\n')`  
 `kubectl apply -f "https://cloud.weave.works/k8s/net?k8s-version=$kubever"`
 
