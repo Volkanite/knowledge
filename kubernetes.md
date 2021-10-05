@@ -34,10 +34,10 @@ Ports: 6443 (kubeadm), 6783 (CNI), 6784 (CNI)
 `chown $(id -u):$(id -g) $HOME/admin.conf`  
 `export KUBECONFIG=$HOME/admin.conf` - required after every reboot
 
-`kubectl get nodes`  
-
 `export kubever=$(kubectl version | base64 | tr -d '\n')`  
 `kubectl apply -f "https://cloud.weave.works/k8s/net?k8s-version=$kubever"`
+
+`kubectl get nodes`  
 
 
 ## WORKER
