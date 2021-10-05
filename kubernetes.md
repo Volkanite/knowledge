@@ -29,7 +29,7 @@
 `export KUBECONFIG=$HOME/admin.conf`  
 
 `kubectl get nodes`  
-`export kubever=$(kubectl version | base64 | tr -d '\n')`
+`export kubever=$(kubectl version | base64 | tr -d '\n')`  
 `kubectl apply -f "https://cloud.weave.works/k8s/net?k8s-version=$kubever"`
 
 
