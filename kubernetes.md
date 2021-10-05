@@ -1,7 +1,7 @@
 ## Environment
 Platform: Amazon Web Services  
 AMI: ubuntu/images/hvm-ssd/ubuntu-bionic-18.04-amd64-server-20210415  
-Instance type: t2.medium  
+Instance type: t2.medium (2 vCPUs, 4GB RAM)  
 Ports: 6443 (kubeadm), 6783 (CNI), 6784 (CNI)
 
 ## MASTER & WORKER
@@ -32,7 +32,7 @@ Ports: 6443 (kubeadm), 6783 (CNI), 6784 (CNI)
 
 `cp /etc/kubernetes/admin.conf $HOME/`  
 `chown $(id -u):$(id -g) $HOME/admin.conf`  
-`export KUBECONFIG=$HOME/admin.conf`  
+`export KUBECONFIG=$HOME/admin.conf` - required after every reboot
 
 `kubectl get nodes`  
 
