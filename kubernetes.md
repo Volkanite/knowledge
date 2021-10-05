@@ -1,3 +1,8 @@
+## Environment
+AMI: ubuntu/images/hvm-ssd/ubuntu-bionic-18.04-amd64-server-20210415  
+Instance type: t2.medium  
+Ports: 6443 (kubeadm), 6783 (CNI), 6784 (CNI)
+
 ## MASTER & WORKER
 `sudo su`  
 `vim /etc/apt/sources.list.d/kubernetes.list`
