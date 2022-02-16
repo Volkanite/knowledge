@@ -7,7 +7,7 @@ https://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/
 - good for single
 
 ## Rufus
-https://rufus.akeo.ie/
+https://rufus.ie/en/
 - good for single
 
 ## Ventoy
