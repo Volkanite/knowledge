@@ -2,7 +2,7 @@
 https://www.pendrivelinux.com/yumi-multiboot-usb-creator/
 - good for mutiple
 
-## Universal multiboot creator
+## Universal USB Installer
 https://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/
 - good for single
 
@@ -10,18 +10,17 @@ https://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/
 https://rufus.akeo.ie/
 - good for single
 
-## Windows 7 USB/DVD Download Tool v1.0.30	00:08:10
+## Ventoy
+https://www.ventoy.net/en/index.html
 
-## Universal USB Installer v1.8.7.5	00:07:10
+## Windows 7 USB/DVD Download Tool v1.0.30
 
-## UNetbootin v1.1.1.1	00:06:20
+## UNetbootin v1.1.1.1
 
 ## RMPrepUSB
 https://www.rmprepusb.com/
 
-## WiNToBootic v1.2	00:03:35
+## WiNToBootic v1.2
 
 ## WinToFlash
 https://wintoflash.com/home/en/
-
-## Ventoy
