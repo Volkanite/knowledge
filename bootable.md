@@ -7,8 +7,6 @@ https://mirrors.edge.kernel.org/pub/linux/utils/boot/syslinux/
     D:\boot\bootsect /nt60 Z:
     
 ## Links
-[Rufus](https://rufus.ie/) - Easy to use automater  
-[YUMI](https://www.pendrivelinux.com/yumi-multiboot-usb-creator/) - Boot multiple iso/distros from one usb  
-[UUI](https://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/) - other  
+[USB Booting](https://github.com/Volkanite/knowledge/blob/master/usb-boot.md) - Make bootable USB disk from iso/distros  
 [Boot Process](https://neosmart.net/wiki/mbr-boot-process/) - Learn how a computer boots
 
