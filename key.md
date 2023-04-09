@@ -1,7 +1,7 @@
 <h1 align="center">Creating an SSH key</h1>
 
 ### Step 1
-Create SSH key. The command below creates a key file named id_ed25519 in your User's folder. You can see this file in your file browser (Windows Explorer) if you navigate to C:\Users\YOUR_USERNAME\\.ssh
+Create SSH key. The command below creates a key file named id_ed25519 in your User's folder. You can see this file in your file browser (Windows Explorer) if you navigate to C:\Users\YOUR_USERNAME\\.ssh or /home/YOUR_USERNAME/.ssh/ under Linux. (Default name is id_ed25519, you can set this name when executing the command below)
 
     ssh-keygen -t ed25519 -C "your_email@something.com"
     
