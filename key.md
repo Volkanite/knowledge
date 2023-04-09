@@ -21,7 +21,7 @@ Add ssh key to the list (maintained by ssh-agent). Should prompt for password yo
 ### Step 5
 Copy the public key to the clipboard (the key will be available for paste, CTRL+V):
 
-     clip < ~/.ssh/id_ed25519.pub
+     cat < ~/.ssh/id_ed25519.pub
 
 ### Step 6
 Copy to GitHub [Settings](https://github.com/settings/keys) , click "New SSH key", enter a reasonable name in the Title field to help you identify the key, then paste your key in the Key field then click "Add SSH Key".
